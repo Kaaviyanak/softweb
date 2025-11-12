@@ -28,10 +28,152 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BELLA RIO Restaurant</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff8f2;
+      color: #333;
+    }
 
+    header {
+      background: linear-gradient(to right, #d47b4a, #8b3a18);
+      text-align: center;
+      padding: 25px 0;
+      color: #fff;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .content {
+      width: 90%;
+      max-width: 1100px;
+      margin: 30px auto;
+      text-align: center;
+    }
+
+    .card {
+      width: 30%;
+      display: inline-block;
+      vertical-align: top;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      margin: 10px;
+      padding: 20px;
+    }
+
+    .card h3 {
+      color: #c04a2b;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 15px;
+      color: #555;
+    }
+
+    .highlight {
+      background: #ffcc00;
+      color: #000;
+      padding: 15px;
+      border-radius: 10px;
+      font-weight: bold;
+      margin: 25px 0;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .food-row {
+      margin-top: 25px;
+      text-align: center;
+    }
+
+    .food-row img {
+      width: 30%;
+      border-radius: 12px;
+      margin: 8px;
+      vertical-align: middle;
+    }
+
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BELLA RIO</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </header>
+
+  <div class="content">
+    <div class="card">
+      <h3>Menu</h3>
+      <p>Explore our delicious menu filled with local and international flavors.</p>
+    </div>
+    <div class="card">
+      <h3>Book a Table</h3>
+      <p>Reserve your seat in advance for a smooth dining experience.</p>
+    </div>
+    <div class="card">
+      <h3>Opening Hours</h3>
+      <p><strong>Weekdays:</strong> 9 AM – 10 PM<br><strong>Weekends:</strong> Open 24 Hours</p>
+    </div>
+
+    <div class="highlight">
+      🎉 30% OFF this weekend for pre-booked customers! 🎉
+    </div>
+
+    <div class="food-row">
+      <img src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=600&q=60" alt="Dish 1">
+      <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=60" alt="Dish 2">
+      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=600&q=60" alt="Dish 3">
+    </div>
+  </div>
+
+  <footer>
+    DESIGNED AND DEVELOPED BY BELLA RIO TEAM © 2025
+  </footer>
+</body>
+</html>
 
 ## OUTPUT:
-
+![alt text](<Screenshot 2025-11-12 114054.png>)
 
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
